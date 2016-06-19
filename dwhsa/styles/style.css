@@ -1,0 +1,177 @@
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    margin-top: 6px;
+}
+
+h1.logo {
+    width: 100px;
+    height: 45px;
+    float: left;
+}
+
+h1.logo img {
+    width: 100%;
+    height: 45px;
+}
+
+.menu{
+	float: right;
+}
+.menu li {
+    float: left;
+    margin: 1px;
+}
+
+.menu li a {
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0 15px;
+    border-bottom: 3px solid #fff;
+}
+
+.menu li a:hover {
+    color: #00a7ea;
+    border-bottom: 3px solid #00a7ea;
+}
+
+.banner {
+    height: 260px;
+    background: url(http://www.xunlei.com/images/brief_banner.jpg) center;
+}
+
+.center {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "abc";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+.content .hao{
+    font-size: 24px;
+color: #333;
+padding: 30px 0;
+line-height: 24px;
+}
+.content .nav{
+position: absolute;
+right: 0px;
+top: 55px;
+}
+.nav a
+{
+    text-decoration: none;
+    font-size: 10px;
+}
+.nav a:hover
+{
+    outline: none;
+text-decoration: underline;
+
+}
+.content .nav span{
+color: #666;
+padding: 0 4px;
+font-size: 10px;
+}
+
+.bu a{
+   color: #666;
+padding: 0 4px;
+}
+.text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #333;
+    padding-bottom: 20px;
+    text-indent: 30px;
+    font-size: 15px;
+}
+.bottomlink p a{
+	color: #666;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0 15px;
+    border-bottom: 3px solid #fff;
+    font-size:14px;
+}
+.contactUS .weixin a{
+display: block;
+width: 30px;
+height: 25px;
+background-image: url('dwhs\images\ico_footer.png');
+}
+
+.bottomlink p a:hover{
+    outline: none;
+text-decoration: underline;
+
+}
+.text p{
+
+font-size: 15px;
+line-height: 30px;
+color: #333;
+padding-bottom: 20px;
+text-indent: 30px;
+}
+.copyright p {
+    color: #666;
+}
+.copyright p a{
+    color: #666;
+line-height: 24px;
+margin-right: 6px;
+ text-decoration: none;
+    display: inline-block;
+    font-size:5px;
+}
+.copyright p a:hover{
+    outline: none;
+text-decoration: underline;
+}
+.copyright .wei{
+    color: #666;
+line-height: 24px;
+margin-right: 6px;
+}
+.copyright .text1{
+    float: left;
+color: #999;
+font-size:5px;
+}
+ .contactus .weixin{
+    display: block;
+    margin: -30px -10px 0 0 ;
+    width: 30px;
+    height: 25px;
+    background: url('dwhs/images/ico_footer.png');
+}
+ .contactus .weibo{
+    display: block;
+    margin: -30px 0 0 40px;
+    width: 30px;
+    height: 25px;
+    background: url('dwhs/images/ico_footer.png') -45px;
+}
+ .contactus a img{
+    position:absolute;
+    width: 170px;
+    left:-70px;
+    top:30px;
+    display:none;
+}
+ .contactus a:hover img{
+    display:block;
+}
